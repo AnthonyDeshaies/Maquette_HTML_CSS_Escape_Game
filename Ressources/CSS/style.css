@@ -1,0 +1,493 @@
+/* document informaion
+- Document: Madness escape
+- Version: 1.0.0
+-Author: Alyssa */
+
+
+/* Colors
+-defaut body text
+-h1: white
+-h2
+-h3
+icon: red */
+
+
+/* FONTS
+- Defautlt: Amatic
+- Subtitle */
+
+
+/* CSS directory
+1. = Global
+2. = Header */
+
+
+/* =====================GLOBAL===================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Annie use your telescope";
+}
+
+h1 {
+    color: tomato;
+    font-family: "amatic sc";
+    text-align: center;
+}
+
+h2 {
+    font-family: "amatic sc";
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.colornav,
+.navbar-brand {
+    color: aliceblue !important;
+}
+
+
+/* ====================HEADER============================== */
+
+.headerline1 {
+    margin-left: 20px;
+}
+
+i {
+    color: rgb(204, 20, 20);
+    font-size: 120%;
+}
+
+header p {
+    /* font-size: 20px; */
+    text-align: center;
+    padding-top: 10px;
+}
+
+.texte {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+
+.texte p {
+    color: rgb(206, 88, 67);
+    font-size: 5vw;
+}
+
+.btn {
+    background-color: tomato;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-contact:hover {
+    background-color: rgb(250, 249, 249);
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: rgb(224, 224, 224);
+}
+
+
+/* ======================Concept============================== */
+
+.concept-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.concept {
+    width: 50%;
+    margin: 0 5%;
+}
+
+.concept h2::after {
+    display: block;
+    height: 2px;
+    background-color: tomato;
+    width: 100px;
+    content: "";
+    margin-top: 10px;
+}
+
+.concept h2 {
+    font-size: 50px;
+}
+
+.concept p {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.room_1 img {
+    max-width: 100%;
+}
+
+
+/* ==========================Principle======================= */
+
+.investigation {
+    background: rgb(197, 155, 155);
+}
+
+.principle-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.principle-title h2 {
+    color: rgb(216, 77, 12);
+}
+
+.principle {
+    margin: 0 20px;
+}
+
+.principle i {
+    position: relative;
+    left: 40%;
+    font-size: 300%;
+    margin: 20px 0;
+}
+
+.principle p,
+.principle h3 {
+    text-align: center;
+}
+
+.principle h3 {
+    font-weight: bold;
+}
+
+
+/* ========================NUMBERS=================== */
+
+.numbersection {
+    background-image: linear-gradient(rgba(233, 154, 134, 0.356), rgba(128, 53, 53, 0.5)), url("../Images/Background/section_2.jpg");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.numbers h3 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.numbersbox {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.numbers p {
+    color: white;
+    text-align: center;
+}
+
+.number-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 50px;
+    color: white;
+}
+
+
+/* ==========================Game Master============================== */
+
+.game_masters {
+    display: flex;
+    justify-content: center;
+}
+
+.gamemaster_title {
+    color: rgb(46, 49, 29);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profilphoto {
+    width: 300px;
+    height: 300px;
+    filter: sepia(1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.phone {
+    color: rgb(97, 104, 1);
+}
+
+.logo {
+    font-size: 500%;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.elment3,
+.element2,
+.elment4 {
+    text-align: center;
+    font-size: 1vw;
+}
+
+.icon_game_master {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* =========================CUSTUMERS=============================== */
+
+.theylike-title h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.custumers {
+    background-color: rgb(145, 129, 114);
+}
+
+.profilpicture {
+    width: 70%;
+    height: 80%;
+    border-radius: 60%;
+}
+
+.commentary_title {
+    text-align: left;
+    font-weight: bold;
+}
+
+.fa-star.gold {
+    color: #ffdc0f;
+}
+
+.commentary {
+    text-align: justify;
+}
+
+
+/* =======================Footer============================= */
+
+footer {
+    background-image: linear-gradient(rgba(250, 248, 248, 0.356), rgba(247, 4, 4, 0.5)), url("../Images/Background/pied.jfif");
+    background-position: center;
+    background-size: cover;
+    padding: 5% 0px;
+    height: 100%;
+    font-size: 1vw;
+}
+
+.companytitle h3 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.companytitle p {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.companytitle p i {
+    color: black;
+}
+
+.followers {
+    color: #000000;
+    font-weight: bold;
+}
+
+.first_column p i {
+    color: black;
+}
+
+.brand_title {
+    text-align: left;
+}
+
+.commentary_title_picture {
+    text-align: left;
+}
+
+.commentary_photo {
+    text-align: left;
+    font-weight: bold;
+}
+
+.followers::after {
+    display: block;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+button {
+    background-color: rgb(71, 68, 68);
+    padding: 2px 8px;
+    margin-left: -7px;
+    border: none;
+    color: white;
+}
+
+.contact-form {
+    margin: 0;
+}
+
+.littlepicture img {
+    width: 30%;
+    height: 10%;
+    filter: grayscale(1);
+}
+
+.photo_instagram {
+    filter: grayscale(1);
+    width: 30%;
+    height: 15%;
+    margin: 1px 0;
+    transition: .3s ease-in-out;
+}
+
+.photo_instagram:hover {
+    transform: scale(1.5);
+}
+
+.bloc_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first_column,
+.second_column,
+.thrid_column {
+    width: 29%;
+    margin: 0 2%;
+}
+
+.littlepicture {
+    display: flex;
+    margin: 1% 0;
+}
+
+.littlepicture p {
+    display: flex;
+    align-self: center;
+    margin-left: 5%;
+}
+
+
+/* ===========Responsive ===========*/
+
+@media all and (min-width: 10px) and (max-width:623px) {
+    .btn-contact {
+        font-size: 30%;
+    }
+    .concept-section {
+        flex-direction: column;
+    }
+    .room_1 img {
+        display: block;
+        width: auto;
+    }
+    .numbersbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .numbersection {
+        height: auto;
+    }
+    .numbers1,
+    .numbers2,
+    .numbers3,
+    .numbers4 {
+        margin-top: 20px;
+    }
+    .game_masters {
+        flex-direction: column;
+        align-items: center;
+    }
+    .element2,
+    .elment3,
+    .elment4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .first_column {
+        width: 46%;
+    }
+    .second_column {
+        width: 46%;
+    }
+    .thrid_column {
+        width: 88%;
+    }
+}
+
+@media all and (min-width: 624px) and (max-width:1253px) {
+    .concept-section {
+        flex-direction: column;
+    }
+    .room_1 img {
+        display: block;
+        width: auto;
+    }
+    .numbersbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .numbersection {
+        height: auto;
+    }
+    .numbers1,
+    .numbers2,
+    .numbers3,
+    .numbers4 {
+        margin-top: 20px;
+    }
+    .game_masters {
+        flex-direction: column;
+        align-items: center;
+    }
+    .element2,
+    .elment3,
+    .elment4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .first_column {
+        width: 46%;
+    }
+    .second_column {
+        width: 46%;
+    }
+    .thrid_column {
+        width: 88%;
+    }
+}
